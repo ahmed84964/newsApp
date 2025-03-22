@@ -15,7 +15,7 @@ class BigNews extends StatelessWidget {
           ClipRRect(
             borderRadius: BorderRadius.circular(10),
             child: Image.network(
-              big.imageUrl,
+              big.imageUrl?? "https://plus.unsplash.com/premium_photo-1688561383440-feef3fee567d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnJlYWtpbmclMjBuZXdzfGVufDB8fDB8fHww",
               height: 150,
               width: double.infinity,
               fit: BoxFit.cover,
